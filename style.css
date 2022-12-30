@@ -2,19 +2,17 @@
     margin: 0;
     padding: 0;
 }
-.first-section{
-    background-color: black;
-}
 .navbar{
-    position: fixed;
+    /* position: fixed; */
     height: 80px;
     padding: 0 200px;
     z-index: 500;
+    background-color: black;
 }
 .global-nav .nav{
     max-width: 1200px;
     min-width: 1200px;
-    /* position: relative; */
+    position: relative;
     margin: 0 auto;
     display: flex;
     height: 80px;
@@ -24,10 +22,11 @@
 
 .nav .left{
     padding-top: 35px;
-    align-items: center;
+    align-items:flex-start;
+    color: white;
 }
 .right{
-    /* position: relative; */
+    position: relative;
 }
 
 .right .items{
@@ -58,3 +57,12 @@
 .nav-item span{
     padding-left: 11px;
 }
+
+.heading-section{
+    font-size: 100px;
+    animation: fadeIn 7s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
