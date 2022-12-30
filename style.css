@@ -5,13 +5,11 @@
 .navbar{
     /* position: fixed; */
     height: 80px;
-    padding: 0 200px;
+    padding: 0 10px;
     z-index: 500;
     background-color: black;
 }
 .global-nav .nav{
-    max-width: 1200px;
-    min-width: 1200px;
     position: relative;
     margin: 0 auto;
     display: flex;
@@ -21,7 +19,7 @@
 }
 
 .nav .left{
-    padding-top: 35px;
+    padding-top: 25px;
     align-items:flex-start;
     color: white;
 }
@@ -60,9 +58,39 @@
 
 .heading-section{
     font-size: 100px;
+    width: 30%;
     animation: fadeIn 7s;
+    color: white;
 }
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
+  }
+  .top{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+  }
+  .photo-section{
+    align-items: baseline;
+    padding-top: 50px;
+  }
+  /* @media screen and (min-width: 320px) and (max-width: 480px)  {
+    .about-us{
+
+    }
+  } */
+
+    .about-us{
+         padding-top:100px ;
+         display: flex;
+         justify-content: center;
+        /* padding-left: 101px;*/
+    }
+  .text-about-us{
+    padding-top: 25px;
+  }
+  .para-about-us{
+    width: 70%;
   }
