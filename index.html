@@ -8,6 +8,9 @@
 
 </head>
 <body>
+    <script type="text/javascript" src="./script.js">
+    </script>
+
     <div class="main-container">
         <header class="navbar">
             <div class="global-nav">
@@ -94,6 +97,21 @@
     <div>
         <H1>OUR SERVICES</H1>
     </div>
-    <!-- <footer class="footer"></footer> -->
+<!-- contact us -->
+    <div class="contact-us" id="contact-us">
+        <form>
+        <h1>CONTACT US</h1>
+        <label for="fullname"></label>
+        <input type="text" name="fullName" id="fullname" placeholder="FullName" value="" ><br><br>
+        <label for="lastname"></label>
+        <input type="text" name="LastName" id="lastname" value="" placeholder="Last Name" ><br><br>
+        <label for="emailid"></label>
+        <input type="email" name="email" id="emailid" value="" placeholder="Email Address" ><br><br>
+        <label for="contactreason"></label>
+        <input type="text" name="contactreason" id="contactreason" value="" placeholder="Reason For Contacting" ><br><br>
+        <input type="button" id="submit" name="submit" value="Submit" onclick="submitForm(); return false;">
+        </form>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
