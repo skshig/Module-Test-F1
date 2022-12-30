@@ -94,3 +94,9 @@
   .para-about-us{
     width: 70%;
   }
+  .contact-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+
+  }
