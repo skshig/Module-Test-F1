@@ -100,5 +100,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
+    color: white;
 
+  }
+
+  .service-cards{
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    /* column-gap: 20px; */
+    grid-auto-rows: auto;
+    grid-gap: 20rem;
+    transition-duration: 0.3s;
+    flex-wrap: wrap;
+
+  }
+  .grid{
+
+    margin-top: 15px;
+    }
+  .card-content{
+    border: 1px solid black;
+  }
+  .card-content:hover{
+    background-color: black;
+    color: white;
   }
