@@ -3,7 +3,7 @@
     padding: 0;
 }
 .navbar{
-    /* position: fixed; */
+    position: fixed;
     height: 80px;
     padding: 0 10px;
     z-index: 500;
@@ -25,6 +25,8 @@
 }
 .right{
     position: relative;
+    padding-left: 862px;
+    padding-right: 14px;
 }
 
 .right .items{
